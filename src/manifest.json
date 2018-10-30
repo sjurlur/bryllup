@@ -1,6 +1,6 @@
 {
-  "name": "bryllup",
-  "short_name": "bryllup",
+  "name": "Me giftar oss",
+  "short_name": "Bryllup",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",

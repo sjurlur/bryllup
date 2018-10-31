@@ -1,34 +1,43 @@
 import { h, Component } from "preact";
-
+import { Header } from "./header";
+import { Footer } from "./footer";
 export default class App extends Component {
   render() {
     return (
       <div id="app">
-        <h1>Lisa og sjur giftar seg!</h1>
+        <Header />
         <h2>Bakgrunn</h2>
         <p>
-          No har me vore i lag i nesten 8 år. Det er mykje, men i grunn har det
-          gått greit. Me tenkte å fortsettje i hop, men under åsyn av Gud :))
+          No har me vore i lag i nesten 8 år. Det er mykje, men me vil ha meir.
           Derfor giftar me oss den niende februar 2019 og vonar du vil vera på
           feiringa!
         </p>
         <h2>Program for dagen</h2>
-        <dl>
+        <dl className="programlist">
           <dt>14:30</dt>
           <dd>
-            <strong>Vigsel i Paulus kyrkje</strong>
-            <br /> Paulus kyrkje ligg på birkelunden på grunerløkka. Etter denne
-            må ein på eigehand ta seg til festlokalet på Voksenkollen. Her er
-            det viktig å berekne god tid. ca ein time frå Oslo sentrum.
+            <span className="listheader">Vigsel i Paulus kyrkje</span>
+            Paulus kyrkje ligg på birkelunden på grunerløkka.
+            <br />
+            <br /> Etter vigselen må ein på eigehand ta seg til festlokalet på
+            Voksenkollen. Det tek ca ein time med kollektivtransport frå kyrkja.
           </dd>
           <dt>18:00</dt>
-          <dd>Velkomstdrink på Solstua</dd>
+          <dd>
+            <span className="listheader">Velkomstdrink på Solstua</span>
+          </dd>
           <dt>19:00</dt>
-          <dd>Maten vert servert</dd>
+          <dd>
+            <span className="listheader">Maten vert servert</span>
+          </dd>
           <dt>23:30</dt>
-          <dd>Dans i peisestova</dd>
+          <dd>
+            <span className="listheader">Dans i peisestova</span>
+          </dd>
           <dt>02:30</dt>
-          <dd>Nattmat og limbokonkurranse</dd>
+          <dd>
+            <span className="listheader">Nattmat og limbokonkurranse</span>
+          </dd>
         </dl>
         <h2>Transport</h2>
         <em>Legg inn kart</em>
@@ -39,7 +48,7 @@ export default class App extends Component {
           <a href="https://ruter.no/" target="_new">
             https://ruter.no/
           </a>{" "}
-          og skriv inn Birkelunden som destinasjon. Det tek om lag 10 min med
+          og skriv inn Birkelunden som destinasjon. Det tek om lag 10 minutt med
           kollektivtransport frå Oslo S.
         </p>
         <h3>Til Solstua</h3>
@@ -53,40 +62,33 @@ export default class App extends Component {
           av på stoppet som heiter Voksenkollen
         </p>
         <p>
-          Frå t-bane stoppet er det ca 15min å gå. Me vil henga opp ballongar
-          som markerar vegen.
+          Frå t-bane stoppet er det ca 15 minutt å gå. Me vil henga opp
+          ballongar som markerar vegen.
+        </p>
+        <p>
+          Nyttar du taxi eller eigen bil er addressa: Thorleif Haugs vei 14,
+          0791 Oslo. Det er rikeleg med parkeringsplassar på tunet.
         </p>
         <h2>Overnatting</h2>
         <p>
           <a href="http://www.voksenaasen.no/hotell/">Voksenåsen hotell</a>
         </p>
-        <h2>Praktisk informasjon</h2>
-        <h3>Bidrag</h3>
-        <p>
-          Me sett stor pris på underhaldingsbidrag både før, under og etter
-          middagen. Ta kontakt med visevert ... på telefon ...
-        </p>
-        <h3>Kontaktinformasjon</h3>
-        <p>
-          <strong>Lisa Smith: </strong>
-          <em>lisasmi@math.uio.no tlf. 924 96 976</em>
-          <br />
-          <strong>Sjur Seibt: </strong>
-          <em>sjurlur@gmail.com tlf. 992 29 275</em>
-        </p>
-        <h2>FAQ</h2>
-        <dl>
-          <dt>Kva gjer eg dersom eg vil underhalde?</dt>
-          <dd>Ta kontakt med viseverten ... tlf: 111 11 111</dd>
+        <h2>Ofte spurde spørsmål (FAQ)</h2>
+        <dl className="faq">
+          <dt className="listheader">Kva gjer eg dersom eg vil underhalde?</dt>
+          <dd>
+            Ta kontakt med viseverten. Det er framleis uvisst kven dette er, men
+            når me veit vil me skriva det her. Me set stor pris på underhalding.
+          </dd>
           <dt>Kva skal eg ha på meg?</dt>
           <dd>Varme klede som også er fine å sjå på. Bunad er fint.</dd>
-          <dt>Har du mistet invitasjonen?</dt>
-          <dd>Det går bra</dd>
-          <dt />
-          <dd>Dans i peisestova</dd>
-          <dt>02:30</dt>
-          <dd>Nattmat og limbokonkurranse</dd>
+          <dt>Korleis kjem eg i kontakt med brureparet?</dt>
+          <dd>
+            På e-post: sjurlur@gmail.com eller lisasmi@math.uio.no. På telefon:
+            992 29 275 (Sjur) eller 924 96 976 (Lisa)
+          </dd>
         </dl>
+        <Footer />
       </div>
     );
   }

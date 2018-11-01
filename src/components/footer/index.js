@@ -4,6 +4,6 @@ import style from "./style";
 
 export const Footer = () => (
   <footer className={style.footer}>
-    <img className={style.img} src="../../assets/footer.png" />
+    <img className={style.img} src="../../assets/footer.png" alt="" />
   </footer>
 );

@@ -67,7 +67,10 @@ export const Main = () => (
     </p>
     <h2>Overnatting</h2>
     <p>
-      <a href="http://www.voksenaasen.no/hotell/">Voksenåsen hotell</a>
+      <a href="http://www.voksenaasen.no/hotell/">Voksenåsen hotell</a> ligg eit
+      steinkast frå Solstua. Bryllupsgjestar får ein liten rabatt ved
+      bestilling. Dobbeltrom kostar 1190 kr og enkeltrom kostar 880 kr per natt,
+      inkludert frokost.
     </p>
     <h2>Ofte spurde spørsmål</h2>
     <dl className="faq">

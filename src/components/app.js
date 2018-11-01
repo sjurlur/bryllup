@@ -11,8 +11,8 @@ export default class App extends Component {
           <div className={style.main}>
             <h2>Bakgrunn</h2>
             <p>
-              No har me vore i lag i nesten 8 år. Det er mykje, men me vil ha
-              meir. Derfor giftar me oss den niende februar 2019 og vonar du vil
+              No har me vore i lag i nesten 8 år. Det er mange, men me vil ha
+              fleire. Derfor giftar me oss den 9. februar 2019 og vonar du vil
               vera på feiringa!
             </p>
             <h2>Program for dagen</h2>
@@ -26,7 +26,7 @@ export default class App extends Component {
                 på Voksenkollen. Det tek ca ein time med kollektivtransport frå
                 kyrkja.
               </dd>
-              <dt>18:00</dt>
+              <dt>17:30</dt>
               <dd>
                 <span className="listheader">Velkomstdrink på Solstua</span>
               </dd>
@@ -38,16 +38,16 @@ export default class App extends Component {
               <dd>
                 <span className="listheader">Dans i peisestova</span>
               </dd>
-              <dt>02:30</dt>
+              <dt>02:00</dt>
               <dd>
-                <span className="listheader">Nattmat og limbokonkurranse</span>
+                <span className="listheader">Nattmat vert servert</span>
               </dd>
             </dl>
             <h2>Transport</h2>
             <em>Legg inn kart</em>
             <h3>Til Paulus kyrkje</h3>
             <p>
-              Det går både trikk og buss som stopper rett ved kyrkja. Nytt
+              Det går både trikk og buss som stoppar rett ved kyrkja. Nytt
               gjerne ruteplanleggaren på{" "}
               <a href="https://ruter.no/" target="_new">
                 https://ruter.no/

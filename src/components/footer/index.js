@@ -1,9 +1,11 @@
 import { h } from "preact";
-import { Link } from "preact-router/match";
 import style from "./style";
 
 export const Footer = () => (
   <footer className={style.footer}>
-    <img className={style.img} src="../../assets/footer.png" alt="" />
+    <picture>
+      <source srcset="../../assets/footer.webp" type="image/webp" />
+      <img className={style.img} src="../../assets/footer.png" alt="" />
+    </picture>
   </footer>
 );

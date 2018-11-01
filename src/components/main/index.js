@@ -2,7 +2,7 @@ import { h } from "preact";
 import style from "./style";
 
 export const Main = () => (
-  <main className={style.main}>
+  <div className={style.main}>
     <h2>Bakgrunn</h2>
     <p>
       No har me vore i lag i nesten 8 år. Det er mange, men me vil ha fleire.
@@ -84,5 +84,5 @@ export const Main = () => (
         29 275 (Sjur) eller 924 96 976 (Lisa)
       </dd>
     </dl>
-  </main>
+  </div>
 );

@@ -69,7 +69,7 @@ export const Main = () => (
     <p>
       <a href="http://www.voksenaasen.no/hotell/">Voksenåsen hotell</a>
     </p>
-    <h2>Ofte spurde spørsmål (FAQ)</h2>
+    <h2>Ofte spurde spørsmål</h2>
     <dl className="faq">
       <dt className="listheader">Kva gjer eg dersom eg vil underhalde?</dt>
       <dd>

@@ -13,9 +13,9 @@ export const Main = () => (
       <dt>14:30</dt>
       <dd>
         <span className="listheader">Vigsel i Paulus kyrkje</span>
-        Paulus kyrkje ligg på birkelunden på grunerløkka.
+        Paulus kyrkje ligg på Birkelunden på Grünerløkka.
         <br />
-        <br /> Etter vigselen må ein på eigehand ta seg til festlokalet på
+        <br /> Etter vigselen må ein på eiga hand ta seg til festlokalet på
         Voksenkollen. Det tek ca ein time med kollektivtransport frå kyrkja.
       </dd>
       <dt>17:30</dt>
@@ -58,8 +58,8 @@ export const Main = () => (
       stoppet som heiter Voksenkollen
     </p>
     <p>
-      Frå t-bane stoppet er det ca 15 minutt å gå. Me vil henga opp ballongar
-      som markerar vegen.
+      Frå t-banestoppet er det ca 15 minutt å gå. Me vil henga opp ballongar som
+      markerar vegen.
     </p>
     <p>
       Nyttar du taxi eller eigen bil er addressa: Thorleif Haugs vei 14, 0791

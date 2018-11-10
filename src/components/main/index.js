@@ -70,7 +70,9 @@ export const Main = () => (
       <a href="http://www.voksenaasen.no/hotell/">Voksenåsen hotell</a> ligg eit
       steinkast frå Solstua. Bryllupsgjestar får ein liten rabatt ved
       bestilling. Dobbeltrom kostar 1190 kr og enkeltrom kostar 880 kr per natt,
-      inkludert frokost.
+      inkludert frokost. Ring 22 81 15 20 og sei at du skal i Lisa og Sjur sitt
+      bryllup 9. februar. Ps: antall ledige rom på booking.com stemmer ikkje,
+      men det er lurt å bestille i god tid.
     </p>
     <h2>Ofte spurde spørsmål</h2>
     <dl className="faq">

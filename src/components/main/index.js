@@ -78,8 +78,8 @@ export const Main = () => (
     <dl className="faq">
       <dt className="listheader">Kva gjer eg dersom eg vil underhalde?</dt>
       <dd>
-        Ta kontakt med viseverten. Det er framleis uvisst kven dette er, men når
-        me veit vil me skriva det her. Me set stor pris på underhalding.
+        Ta kontakt med visevertane, Maria (995 67 693) og Jon (957 89 288). Me
+        set stor pris på underhalding.
       </dd>
       <dt>Kva skal eg ha på meg?</dt>
       <dd>Varme klede som også er fine å sjå på. Bunad er fint.</dd>

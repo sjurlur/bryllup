@@ -88,5 +88,16 @@ export const Main = () => (
         29 275 (Sjur) eller 924 96 976 (Lisa)
       </dd>
     </dl>
+    <h2>Ønskeliste</h2>
+    <p>
+      Me ønsker oss bidrag til byllupsreise til Sri Lanka. I tillegg har me laga
+      ei ønskeliste på Jernia. Den består av service og kjøkkenutstyr.{" "}
+      <a
+        href="https://www.jernia.no/wishlist/a259f3ef-a012-4daa-b54f-c6fe6f59643e"
+        target="_new"
+      >
+        https://www.jernia.no/wishlist/
+      </a>
+    </p>
   </div>
 );

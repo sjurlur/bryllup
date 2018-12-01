@@ -36,7 +36,6 @@ export const Main = () => (
       </dd>
     </dl>
     <h2>Transport</h2>
-    <em>Legg inn kart</em>
     <h3>Til Paulus kyrkje</h3>
     <p>
       Det går både trikk og buss som stoppar rett ved kyrkja. Nytt gjerne

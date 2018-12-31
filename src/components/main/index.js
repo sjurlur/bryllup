@@ -22,10 +22,6 @@ export const Main = () => (
       <dd>
         <span className="listheader">Velkomstdrink på Solstua</span>
       </dd>
-      <dt>19:00</dt>
-      <dd>
-        <span className="listheader">Maten vert servert</span>
-      </dd>
       <dt>23:30</dt>
       <dd>
         <span className="listheader">Dans i peisestova</span>

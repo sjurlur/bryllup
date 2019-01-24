@@ -86,8 +86,12 @@ export const Main = () => (
     </dl>
     <h2>Ønskeliste</h2>
     <p>
-      Me ønsker oss bidrag til byllupsreise til Sri Lanka. I tillegg har me laga
-      ei ønskeliste på Jernia. Den består av service og kjøkkenutstyr.{" "}
+      Me ønsker oss bidrag til byllupsreise til fjerne strøk. Bidrag kan settast inn på kontonummer: 9802 17 46878
+
+      </p>
+      <p>
+      Me har og laga
+      ei ønskeliste på Jernia. Den består av servise og kjøkkenutstyr.{" "}
       <a
         href="https://www.jernia.no/wishlist/a259f3ef-a012-4daa-b54f-c6fe6f59643e"
         target="_new"
